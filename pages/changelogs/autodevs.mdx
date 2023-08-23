@@ -1,0 +1,69 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "autodevs",
+  publishedAt: "2023-07-17T11:00:00.000Z",
+  title: "Autodevs",
+  headerImage:
+    "https://create-changelog.s3.us-east-2.amazonaws.com/autodevs/headline.png",
+  authors: [
+    {
+      name: "James Pulec",
+      description: "Founding Eng",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/james.jpg",
+    },
+    {
+      name: "Jonathan Leung", 
+      description: "Founding Eng",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/jonny.png",
+    },
+    {
+      name: "Marcus Lowe",
+      description: "Co-Founder",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/marcus.jpg",
+    },
+    {
+      name: "Dhruv Amin",
+      description: "Co-Founder",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/dhruv.jpg",
+    },
+  ],
+};
+
+We're launching an [early preview](https://create.xyz/onboarding) of what we've been working on to make Create even faster: Autodevs.
+
+Autodevs ship production code...all on their own. 
+
+To get more feedback, our [hompage](https://create.xyz) has a simple v0 flow that lets you build app prototypes using autodevs. For now, they just build frontends, which are often the first thing you build when starting a new project. 
+
+Enter your app description, and kick off your own fleet of autodevs to build a free prototype for you.
+
+<YouTube youTubeId="mShtFv5K4hA" />
+
+From there, you [can upgrade](https://create.xyz/upgrade) and Create will build the rest for you fast, with an instant on demand eng team and common feature set code generators. Soon, our eng community will be augmented with autodevs. 
+
+## If you're not embarassed, you launched too late...
+
+We have to admit: for now, the prototypes autodevs build look like toys. And they take 30 mins to complete. And they sometimes fail.  
+
+But they're building with full code that compiles (read: hard to do). And we're rapidly improving them. 
+
+Building with full code is important. It means autodevs can take advantage of Create's pre-built implementations for hundreds of features. And that Create's on demand eng community can build on top of what they ship, customize it further, and fix any errors. Ultimately, products built with Create are exactly how you want, with full customizability and capabilities, in a Github repo you can own. 
+
+We believe autodevs are the future of app development. And a major part of giving everyone the power of software creation. 
+
+## Slightly deeper dive...
+
+Autodevs are large language model based AI "agents". You might of heard of other agent projects like [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) or [BabyAGI](https://github.com/yoheinakajima/babyagi). Autodevs are agents focused on writing production quality code.
+
+We've had to solve a number of hard technical challenges with existing agent based architectures to get them to reliably write code on par with humans engineers. Everything from planning, repo context discovery, example learning, long running infra, performance, memory design, self healing error correction, output verification, and much more.   
+
+There's so much to improve from here. If you want to work on agents that take the hassle out of product creation, check out our [open roles](https://jobs.ashbyhq.com/create).
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

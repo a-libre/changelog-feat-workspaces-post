@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://changelog.create.xyz
+
+# Sitemaps
+Sitemap: https://changelog.create.xyz/sitemap.xml

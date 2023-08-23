@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>create. Changelog</title>
+        <link>https://changelog.create.xyz</link>
+        <description>How Create gets better every week</description>
+        <lastBuildDate>Tue, 08 Aug 2023 02:17:31 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Create changelog</generator>
+        <image>
+            <title>create. Changelog</title>
+            <url>https://changelog.create.xyz/favicon.ico</url>
+            <link>https://changelog.create.xyz</link>
+        </image>
+        <copyright>All rights reserved 2023, Create, Inc.</copyright>
+        <item>
+            <title><![CDATA[Iteration and previews]]></title>
+            <link>https://changelog.create.xyz/changelogs/iteration-previews</link>
+            <guid>https://changelog.create.xyz/changelogs/iteration-previews</guid>
+            <pubDate>Tue, 25 Jul 2023 11:00:00 GMT</pubDate>
+            <enclosure url="https://create-changelog.s3.us-east-2.amazonaws.com/iteration-previews/headline.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Autodevs]]></title>
+            <link>https://changelog.create.xyz/changelogs/autodevs</link>
+            <guid>https://changelog.create.xyz/changelogs/autodevs</guid>
+            <pubDate>Mon, 17 Jul 2023 11:00:00 GMT</pubDate>
+            <enclosure url="https://create-changelog.s3.us-east-2.amazonaws.com/autodevs/headline.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Create]]></title>
+            <link>https://changelog.create.xyz/changelogs/announcing-create</link>
+            <guid>https://changelog.create.xyz/changelogs/announcing-create</guid>
+            <pubDate>Thu, 23 Mar 2023 11:00:00 GMT</pubDate>
+            <enclosure url="https://create-changelog.s3.us-east-2.amazonaws.com/announcing-create/headline.png" length="0" type="image/png"/>
+        </item>
+    </channel>
+</rss>

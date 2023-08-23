@@ -1,0 +1,49 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "iteration-previews",
+  publishedAt: "2023-07-25T11:00:00.000Z",
+  title: "Iteration and previews",
+  headerImage:
+    "https://create-changelog.s3.us-east-2.amazonaws.com/iteration-previews/headline.png",
+  authors: [
+    {
+      name: "James Pulec",
+      description: "Founding Eng",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/james.jpg",
+    },
+    {
+      name: "Jonathan Leung", 
+      description: "Founding Eng",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/jonny.png",
+    },
+    {
+      name: "Marcus Lowe",
+      description: "Co-Founder",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/marcus.jpg",
+    },
+  ],
+};
+
+A few updates that make it easier to build your app prototype with [autodevs](https://changelog.create.xyz/changelogs/autodevs)
+
+## Iteration 
+
+After your app is done, you can now file more tasks for autodevs to ship. This allows you to further customize your prototype from the initial build. 
+
+## Live Previews 
+
+While autodevs are building your app, you can now look over their shoulder. Hit the preview button or an individual autodev to see a deployed version of the app that updates as the autodev makes code changes. 
+
+## Feedback 
+
+Autodevs still take some time to complete. They're getting faster, and we'll email you when they're done. But if you're following along with the live preview and you notice something going astray, you can give it feedback. It feels like sitting next to an engineer. 
+
+Try [building a prototype](https://create.xyz) for free. 
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

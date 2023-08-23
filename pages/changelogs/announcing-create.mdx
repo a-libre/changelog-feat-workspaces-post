@@ -1,0 +1,66 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "announcing-create",
+  publishedAt: "2023-03-23T11:00:00.000Z",
+  title: "Introducing Create",
+  headerImage:
+    "https://create-changelog.s3.us-east-2.amazonaws.com/announcing-create/headline.png",
+  authors: [
+    {
+      name: "Marcus Lowe",
+      description: "Co-Founder",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/marcus.jpg",
+    },
+    {
+      name: "James Pulec",
+      description: "Founding Eng",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/james.jpg",
+    },
+    {
+      name: "Dhruv Amin",
+      description: "Co-Founder",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/dhruv.jpg",
+    },
+  ],
+};
+
+Today, we're excited to announce Create.
+
+Create helps ambitious founders, teams, and companies launch new software products faster. Our mission is to give everyone the power of software creation. We're pushing towards a world where you can simply describe what you want and have it instantly created.
+
+## Why did we start Create?
+
+Even if you have a great idea for a new software product, turning that vision into production software with full code is still **too hard**. You need to hire engineers, which takes months, and once you have those engineers, they spend 50%+ of their time on full stack features, infra, and tasks that are similar across all products. This includes auth, search, filtering, infinite feeds, notifications, transactional emails, onboarding, CRUD forms, data migrations, job processors, server set ups, UI components, APIs, data ingestion, analytics, integrations, deployment, the list goes on... This complexity means most great ideas die before they're launched.
+
+We’re developers and have felt this pain as developers, building the same features using the same open source libraries and frameworks, company after company. Developers should be spending their time on things that are unique and hard, rather than reinventing the wheel. And more people, even non-developers, should unlock the leverage that turning your idea into software provides.
+
+We want Create to empower the solopreneur, the two person team, and forward looking product teams, to be as powerful as the most iconic dev-powered organizations on the planet.
+
+## So how does it work?
+
+Our initial product combines a generative AI-powered code generation system for full stack web app features with a 24/7, vetted developer community supercharged with these tools. Using Create’s marketplace, our customers ship full software products months faster. And each day, we drive down the time it takes to launch a common web app features from days to minutes.
+
+If you’re building a new product, especially in B2B SaaS (where we’ve started our focus), you can get a quick demo of the Create magic on our [homepage](https://create.xyz) (we just put this up). Enter your app idea and watch what usually takes weeks deployed in minutes. 
+
+![](https://create-changelog.s3.us-east-2.amazonaws.com/announcing-create/godel.webp)
+
+You can sign up from there to have our supercharged dev community customize it exactly to spec. You enter your product roadmap through our customer dashboard and experienced developers (we call them "Creators") scope your build, pick up eng tasks, and generate the code for them to deliver what you want overnight. We've been working with top venture backed startups to ship their roadmaps faster than ever before.  
+
+![](https://create-changelog.s3.us-east-2.amazonaws.com/announcing-create/flux.png)
+
+If you're creating a new product, reach out to [founders@create.xyz](mailto:founders@create.xyz) to tell us about what you're building. Chances are Create can build it faster than any other alternative. 
+
+## Road ahead
+
+We closed our $3M seed round backed by top B2B investors like Andy McLoughlin from Uncork Capital (Postmates, LaunchDarkly), Mathilde Collin (Front), Russ Heddleston (Docsend), and a great list of angels. You can read more about the company in Andy's words [here](https://medium.com/uncorkcapital/create-empowering-everyone-to-build-the-software-they-want-4c74dfb2007c).  
+
+We'll post updates on things we ship along the way. And if you want to join us on the bleeding edge of LLMs for code generation while building a platform that powers a new generation of software products, check out our [careers page](jobs.ashbyhq.com/create)
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

@@ -1,0 +1,47 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "workspaces",
+  publishedAt: "2023-08-13T11:00:00.000Z",
+  title: "Workspaces",
+  headerImage:
+    "https://create-changelog.s3.us-east-2.amazonaws.com/iteration-previews/headline.png",
+  authors: [
+    {
+      name: "James Pulec",
+      description: "Founding Eng",
+      avatarUrl:
+        "https://create-changelog.s3.us-east-2.amazonaws.com/team/james.jpg",
+    },
+    {
+      name: "Jonathan Leung", 
+      description: "Founding Eng",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/jonny.png",
+    },
+    {
+      name: "Marcus Lowe",
+      description: "Co-Founder",
+      avatarUrl: "https://create-changelog.s3.us-east-2.amazonaws.com/team/marcus.jpg",
+    },
+  ],
+};
+
+Workspaces are now up and running, meaning that you get can get a working MVP built more quickly and with easier customzation using [autodevs](https://changelog.create.xyz/changelogs/autodevs).
+
+## Until today…
+
+If you've built something with our autodevs in the past, you may have noticed that the autodevs worked with some privacy — after giving it your instructions, you wouldn't see any of its work until it had a complete product to show you.
+
+## Moving forward…
+
+Now, about 15 seconds after you give our autodevs some guidance on the app you're trying to build, it shows you a live preview that you can use to better understand how it's thinking about your app's development, and what tasks you'd like to add next.
+
+
+
+Try [building a prototype](https://create.xyz) for free. 
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);
